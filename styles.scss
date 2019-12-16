@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    height: 300vh;
+}
+
+// 22C-3
+div p {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin-top: 150px;
+    border: 1px black solid;
+}
+
+// 22C-4
+div > p {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin-top: 150px;
+    border: 1px black solid;
+}
+
+// 22C-5
+div + p {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    margin-top: 150px;
+    border: 1px black solid;
+    position: fixed;
+    top: 100px;
+    right: 100px;
+}
+  
+#relative-position {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 2px solid black;
+    // 25C-1
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+  
+//   22C-1
+  #fixed-position {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 2px solid black;
+    // 25C-3
+    position: fixed;
+    top: 0px;
+    right: 0px;
+  }
+  
+  #ancestor-box {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    position: relative
+  }
+  
+// 22C-2
+.absolute-position {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border: 2px solid black;
+    // 25C-2
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
